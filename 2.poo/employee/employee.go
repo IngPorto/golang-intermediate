@@ -1,8 +1,9 @@
 package employee
 
 type Employee struct {
-	Id   int
-	Name string
+	Id       int
+	Name     string
+	Vacation bool
 }
 
 // reciver function
