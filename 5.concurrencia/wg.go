@@ -11,8 +11,8 @@ import (
 	"time"
 )
 
-/*
-func main() {
+
+func __main() {
 	var wg sync.WaitGroup
 	for i :=0; i < 10; i++ {
 		wg.Add(1)
@@ -20,7 +20,7 @@ func main() {
 	}
 	wg.Wait()
 }
-*/
+
 
 func doSomething(i int, wg *sync.WaitGroup) {
 	defer wg.Done()

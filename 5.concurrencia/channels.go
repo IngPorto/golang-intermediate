@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-/*
-func main() {
+
+func _main() {
 	canalSinBuffer()
 }
-*/
+
 
 func canalSinBuffer() {
 	c := make(chan int)

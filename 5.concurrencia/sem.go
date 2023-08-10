@@ -11,8 +11,7 @@ import (
 	"time"
 )
 
-/*
-func main(){
+func ___main(){
 	c := make(chan int, 2) // tiene solo dos espacio, se va a bloquear cuando complete los espacios y en 2 segundo se desbloqua porque se libera con <- c
 	var wg sync.WaitGroup
 
@@ -25,7 +24,7 @@ func main(){
 	// Dejo el programa en un estado de bloqueo hasta que llegue a cero
 	wg.Wait()
 }
-*/
+
 
 func doSomething2(i int, wg *sync.WaitGroup, c chan int) {
 	defer wg.Done()

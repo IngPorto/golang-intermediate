@@ -22,7 +22,7 @@ func Print (c chan int){
 	}
 }
 
-func main (){
+func ____main (){
 	generator := make(chan int)
 	double := make(chan int)
 
