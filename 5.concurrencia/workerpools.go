@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func _____main(){
 	tasks := []int{ 2, 4, 7, 10, 12, 32, 40}
 	nWorkers := 3
 	jobs := make(chan int, len(tasks))
