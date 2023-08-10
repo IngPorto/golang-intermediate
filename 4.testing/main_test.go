@@ -40,3 +40,18 @@ func TestSumWithSlice(t *testing.T) {
 		}
 	}
 }
+
+
+// COVERAGE
+
+// go test -cover
+
+// archivo de metricas para la covertura de pruebas
+// go test -coverprofile="coverage.out"
+
+// leer el archivo de métricas más claro en la terminal
+// go tool cover -func="coverage.out"
+
+// Metricas en Html
+// go tool cover -html="coverage.out" -o coverage.html
+
